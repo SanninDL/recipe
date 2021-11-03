@@ -1,0 +1,21 @@
+@import "./variale";
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.header-nav {
+		display: flex;
+		align-items: center;
+	}
+	.nav-item {
+		padding: 12px 0;
+		margin: 0 12px;
+		cursor: pointer;
+		transition: all 0.3s linear;
+	}
+	.nav-item:hover {
+		color: $primary-color;
+	}
+}
